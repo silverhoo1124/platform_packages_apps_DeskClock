@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+                         $$$$$$$$$$$$$$$
+                      $$$$$$        $$  $$$$
+                     $$$             $     $$$
+                   $$$$$$$          $$$      $$$
+                  $$$$ $$$$        $$          $$$
+                 $$$      $$       $            $$$
+     FFFF       $$$$     $$                $$$    $$
+    UUUUUU     $$$  $$$$$$              $$$$$$$$$  $$
+               $$$                     $$     $$$  $$
+               $$    $$$$$$$$$         $$      $$  $$
+                $$ $$  $$$ $$$$$$$$$     $$$$$$    $$
+                 $ $$      $$$  $$  $$$           $$
+  $$$             $$$              $$  $$        $$$
+   $$$$             $$$$$$$            $$      $$$
+ $$$$$$$$$$$         $$$  $$$$$       $$     $$$$
+    $$$  $$$$$$$$$   $$$     $$$$$   $$  $$$$$
+  $$$$        $$$$$$$$$$$$$$$    $$$$$$$$$$$$
+ $$$$               $$$     $$$$$$$$$$$
+      $$           $$$            $$$
+        $$        $$$            $$$
+        $$$$$$$$$$$$$$$$$$       $$$
+     $$$$$$$$     $$$$$$$$$$$$$  $$
+        $$$$      $$$            $$
+       $$$        $$            $$$
+                  $$            $$$
+                  $$$$$$$$$$$$$$$$$
+                   $$$$$$$$$$$$$$$
+                     $$$       $$$
+                    $$$         $$$
+                   $$$           $$$
+                  $$$             $$$
+                 $$$               $$$
+                $$$                 $$$
+               $$$                   $$$
+            $$$$$                    $$$$
+           $$$$$$                    $$$
+                                   $$$$
+-->
+<resources>
+
+    <!-- Summary texts for shake and flip actions. Must be ordered by numerical
+         value (do nothing = 0, snooze = 1, dismiss = 2) -->
+    <!-- 定义摇动和翻转动作的总结文字, 必须按照数字顺序排列
+         (啥也不干 = 0, 再睡一会儿 = 1, 别吵了 = 2) -->
+    <string-array name="action_summary_entries" translatable="false">
+      <item>@string/action_summary_snooze</item>
+      <item>@string/action_summary_dismiss</item>
+      <item>@string/action_summary_do_nothing</item>
+    </string-array>
+
+    <!-- Values for for shake and flip actions -->
+    <!-- 摇动和翻转动作的值 -->
+    <string-array name="action_summary_values" translatable="false">
+      <item>1</item>
+      <item>2</item>
+      <item>0</item>
+    </string-array>
+
+</resources>
